@@ -17,8 +17,11 @@ export default function CustomProgressBar({ value }) {
   return (
     <>
       <span
-        class="whitespace-nowrap"
-        style={{ marginLeft: spanPosition, transition: 'margin-left 1s ease-in-out' }}
+        class='whitespace-nowrap'
+        style={{
+          marginLeft: spanPosition,
+          transition: 'margin-left 1s ease',
+        }}
       >
         {progressCompleted}% geschafft
       </span>
@@ -26,13 +29,16 @@ export default function CustomProgressBar({ value }) {
         <FaCheckCircle
           size={iconSize}
           className='absolute -left-3 top-1/2 transform -translate-y-1/2 text-green-500 transition duration-1000 ease-in-out'
-          style={{ left: iconPosition, transition: 'left 1s ease-in-out' }}
+          style={{ left: iconPosition, transition: 'left 1s ease' }}
         />
         <ProgressBar
           completed={progressCompleted}
           height={progressBarHeight}
           bgColor={progressBarColor}
           customLabel='.'
+          animateOnRender={true}
+          transitionTimingFunction='ease'
+          transitionDuration='0.97s'
         />
       </div>
     </>
