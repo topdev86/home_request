@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.title-sm {
+  color: #5f5f68;
+  font-family: Scandia;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18.4px;
+}
+
+.title-md {
+  color: #0a2742;
+  font-family: Scandia;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+}
+
+.item-title {
+  color: #0a2742;
+  text-align: center;
+  font-family: Scandia;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.item-title-hover {
+  color: white;
+  text-align: center;
+  font-family: Scandia;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.item-wrapper:hover .item-title-wrapper {
+  color: white;
+  text-align: center;
+  font-family: Scandia;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  align-items: center;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #0a2742;
+  transition-duration: 400ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color, background-color, border-color,
+    text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter,
+    backdrop-filter, -webkit-backdrop-filter;
+}
+
+.item-wrapper:hover .item-img-wrapper {
+  border-top: 0.5px solid black;
+  border-right: 0.5px solid black;
+  border-left: 0.5px solid black;
+  border-radius: 3px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.item-wrapper-hoverd {
+  transform: scale(0.95);
+}
+.item-wrapper-hoverd .item-title-wrapper {
+  color: white;
+  text-align: center;
+  font-family: Scandia;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  align-items: center;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background-color: #0a2742;
+  transition-duration: 400ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: color, background-color, border-color,
+    text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter,
+    backdrop-filter, -webkit-backdrop-filter;
+}
+.item-wrapper-hoverd .item-title-wrapper p {
+  color: white !important;
+}
+.item-wrapper:hover .item-title-wrapper p {
+  color: white !important;
+}
+
+.item-wrapper-hoverd .item-img-wrapper {
+  border-top: 0.5px solid black;
+  border-right: 0.5px solid black;
+  border-left: 0.5px solid black;
+  border-bottom: 0.5px solid black;
+  border-radius: 3px;
+  border-bottom-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+}
+
+.carousel .slide {
+  text-align: start !important;
+}
