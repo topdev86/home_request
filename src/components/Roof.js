@@ -27,7 +27,7 @@ export default function Roof({ setShowType, selectItem, setSelectItem }) {
     setShowType(1)
   }
   return (
-    <div className='flex-col px-20'>
+    <div className='flex-col xl:px-20 md:px-20 lg:px-20 px-5'>
       <div className='flex-col'>
         <p className='title-md mt-2 !text-black'>
           Welche Dachform hat Ihr Haus?

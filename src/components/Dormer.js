@@ -27,7 +27,7 @@ export default function Dormer({
     setShowType(2)
   }
   return (
-    <div className='flex-col px-20'>
+    <div className='flex-col xl:px-20 md:px-20 lg:px-20 px-5'>
       <div className='flex-col'>
         <p className='title-md mt-2 !text-black'>
           Besitzt Ihr Haus Gauben oder Dachfenster?

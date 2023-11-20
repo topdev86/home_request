@@ -65,7 +65,7 @@ export default function Main() {
     <div className='flex-row justify-center container m-auto max-w-[930px] overflow-hidden'>
       <div className='flex-row bg-[#FAFAFA]'>
         <div
-          className='flex-row px-20 pt-5 pb-4'
+          className='flex-row xl:px-20 md:px-20 lg:px-20 px-5 pt-5 pb-4'
           style={{
             backgroundColor: showType == 2 ? '#000D19' : '',
             color: showType == 2 ? 'white' : '',
@@ -74,7 +74,7 @@ export default function Main() {
           <ProgressBar value={progressValue} />
         </div>
         <div
-          className='pt-10 px-20'
+          className='pt-10 xl:px-20 md:px-20 lg:px-20 px-5'
           style={{ display: showType == 2 ? 'none' : 'block' }}
         >
           <p className='title-sm'>
