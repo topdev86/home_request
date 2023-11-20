@@ -98,12 +98,12 @@ export default function Information({
           </p>
         </div>
       </div>
-      <div className='flex-col w-[80%] m-auto justify-center mt-4'>
+      <div className='flex-col md:w-[80%] lg:w-[80%] xl:w-[80%] w-full m-auto justify-center mt-4'>
         <p className='text-md text-center !text-black'>
           Gratulation, das Angebot ist in Ihrer Region noch verfügbar! Wir
           senden Ihnen gerne kostenlose Informationen zu.
         </p>
-        <div className='w-[70%] m-auto'>
+        <div className='w-[95%] lg:w-[70%] md:w-[70%] xl:w-[70%] m-auto'>
           <div class='w-full'>
             <div class='mb-4 mt-3'>
               <label
